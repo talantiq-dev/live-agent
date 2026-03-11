@@ -26,7 +26,7 @@
         "onnxruntime-react-native": "*"
     },
     "dependencies": {
-        "@live-agent/core": "talantiq-dev/live-agent#live-agent-core",
+        "@live-agent/core": "github:talantiq-dev/live-agent#subdirectory=live-agent-core",
         "buffer": "^6.0.3",
         "@speechmatics/expo-two-way-audio": "github:talantiq-dev/expo-two-way-audio-extended"
     },
