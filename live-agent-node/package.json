@@ -18,7 +18,7 @@
     "author": "Talentiq Solutions Inc. (talantiq-dev)",
     "license": "MIT",
     "dependencies": {
-        "@live-agent/core": "git+https://github.com/talantiq-dev/live-agent.git#subdirectory=live-agent-core"
+        "@live-agent/core": "github:talantiq-dev/live-agent#main:live-agent-core"
     },
     "devDependencies": {
         "@types/node": "^20.3.1",
