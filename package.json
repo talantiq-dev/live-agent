@@ -1,0 +1,15 @@
+{
+    "name": "sapid-live-workspace",
+    "private": true,
+    "description": "Root workspace for Sapid Live Agent packages",
+    "scripts": {
+        "install:all": "pnpm install",
+        "build": "pnpm -r build",
+        "test": "pnpm -r test",
+        "prettier": "prettier --write ."
+    },
+    "devDependencies": {
+        "prettier": "^3.0.0",
+        "typescript": "^5.3.0"
+    }
+}

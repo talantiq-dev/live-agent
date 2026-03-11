@@ -1,0 +1,40 @@
+{
+  "name": "react-native-sapid-live",
+  "version": "0.1.0",
+  "description": "React Native components and hooks for the Sapid Live AI Sous-Chef",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "sapid",
+    "live",
+    "gemini",
+    "ai",
+    "sous-chef"
+  ],
+  "author": "Talentiq Solutions Inc. (talantiq-dev)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@live-agent/core": "github:talantiq-dev/live-agent#subdirectory=live-agent-core",
+    "@live-agent/expo-live-agent": "github:talantiq-dev/live-agent#subdirectory=expo-live-agent",
+    "@speechmatics/expo-two-way-audio": "github:talantiq-dev/expo-two-way-audio-extended",
+    "buffer": "^6.0.3",
+    "expo-camera": "^55.0.9"
+  }
+}

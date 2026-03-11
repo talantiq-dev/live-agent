@@ -1,0 +1,38 @@
+{
+    "name": "@live-agent/expo-live-agent",
+    "version": "0.1.0",
+    "description": "Expo SDK for connecting to Live AI Agents",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "build": "tsc --noEmit",
+        "test": "npx jest"
+    },
+    "keywords": [
+        "expo",
+        "react-native",
+        "ai",
+        "live-agent",
+        "vad"
+    ],
+    "author": "Talentiq Solutions Inc. (talantiq-dev)",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "expo": "*",
+        "expo-asset": "*",
+        "onnxruntime-react-native": "*"
+    },
+    "dependencies": {
+        "@live-agent/core": "github:talantiq-dev/live-agent#subdirectory=live-agent-core",
+        "buffer": "^6.0.3",
+        "@speechmatics/expo-two-way-audio": "github:talantiq-dev/expo-two-way-audio-extended"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.0",
+        "typescript": "^5.3.0",
+        "jest": "^29.5.0"
+    }
+}

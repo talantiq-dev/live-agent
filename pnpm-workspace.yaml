@@ -1,0 +1,9 @@
+packages:
+  - 'live-agent-core'
+  - 'live-agent-node'
+  - 'expo-live-agent'
+  - 'sapid-live-agent-backend'
+  - 'sapid-live'
+
+onlyBuiltDependencies:
+  - "@speechmatics/expo-two-way-audio"
