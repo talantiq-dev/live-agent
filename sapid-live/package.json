@@ -31,8 +31,8 @@
     "typescript": "^5.3.0"
   },
   "dependencies": {
-    "@live-agent/core": "github:talantiq-dev/live-agent#subdirectory=live-agent-core",
-    "@live-agent/expo-live-agent": "github:talantiq-dev/live-agent#subdirectory=expo-live-agent",
+    "@live-agent/core": "git+https://github.com/talantiq-dev/live-agent.git#subdirectory=live-agent-core",
+    "@live-agent/expo-live-agent": "git+https://github.com/talantiq-dev/live-agent.git#subdirectory=expo-live-agent",
     "@speechmatics/expo-two-way-audio": "github:talantiq-dev/expo-two-way-audio-extended",
     "buffer": "^6.0.3",
     "expo-camera": "^55.0.9"
